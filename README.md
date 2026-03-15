@@ -27,3 +27,13 @@ Kernel branch used:
 
 
 android-gs-comet-6.1-android16
+
+## Build Kernel
+
+After syncing the kernel source:
+
+./scripts/build_kernel.sh
+
+Output files will appear in:
+
+kernel/out/dist/
