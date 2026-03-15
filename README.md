@@ -14,3 +14,16 @@ This repo contains:
 - documentation
 
 Kernel source is synced separately using repo.
+
+## Kernel Setup
+
+Download the Pixel 9 Pro Fold kernel source:
+
+
+./scripts/setup_kernel.sh
+
+
+Kernel branch used:
+
+
+android-gs-comet-6.1-android16
