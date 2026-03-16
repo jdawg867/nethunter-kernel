@@ -2,7 +2,16 @@
 out/
 dist/
 build/
-kernel/
+
+# Ignore kernel source
+kernel/*
+
+# Allow tracking specific kernel config path
+!kernel/private/
+!kernel/private/devices/
+!kernel/private/devices/google/
+!kernel/private/devices/google/comet/
+!kernel/private/devices/google/comet/comet_defconfig
 
 # Bazel
 bazel-*
